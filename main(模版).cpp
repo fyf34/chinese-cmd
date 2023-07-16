@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+﻿#include<iostream>
 #include<windows.h>
 using namespace std;
 string a = "C:\\Users\\Administrator>";
@@ -8,12 +8,15 @@ int main(){
 	while(1){
 		string b;
 		cout << a;
-		cin>>b;
+		cin>>b; 
 		if(b=="关机") {
 			system("shutdown -p"); 	
 		}else if(b=="退出"){
 			return 0;
-		}else{
+		}else if(b=="遍历"){
+			system("dir/s"); 
+		}
+		else{
 			cout<<"'"<<b<<"' 不是内部或外部命令，也不是可运行的程序"<<endl;
 			cout<<"或批处理文件。"<<endl<<endl;
 		}
