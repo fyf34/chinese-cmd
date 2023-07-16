@@ -10,16 +10,8 @@ int main(){
 		cout << a;
 		cin>>b;
 		if(b=="关机") {
-			cout << "关机中" << endl;
-			Sleep(1000);
 			system("shutdown -p"); 	
-		}else if(b=="sb"){
-			cout<<"你才sb,你全家都sb"<<endl; 
-			cout << "爷不和你玩了" << endl;
-			Sleep(1000);
-			system("shutdown -p");
-			Sleep(5000);
-			cout<<"你怎么没关机？！"<<endl;
+		}else if(b=="退出"){
 			return 0;
 		}else{
 			cout<<"'"<<b<<"' 不是内部或外部命令，也不是可运行的程序"<<endl;
