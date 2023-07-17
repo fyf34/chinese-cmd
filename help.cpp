@@ -7,5 +7,6 @@ int main(){
 	cout<<"G"<<endl;
 	cout<<"关机  关闭您的电脑"<<endl;
 	cout<<"T"<<endl;
+	cout<<"调整颜色  改变您chinese-cmd的文本颜色"<<endl;
 	cout<<"退出  关闭chinese-cmd.exe"<<endl;
 }
