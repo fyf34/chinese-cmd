@@ -3,8 +3,8 @@
 using namespace std;
 string a = "C:\\Users\\Administrator>";
 int main(){
-	cout<<"Microsoft Windows [版本10.0.16299.15]"<<endl;
-	cout<<"(c) 2017Microsoft Corporation。保留所有权利。"<<endl<<endl;
+	cout<<"chinese-cmd [版本0.1.0]"<<endl;
+	cout<<"2023 fishoj 保留所有权利。"<<endl<<endl;
 	while(1){
 		string b;
 		cout << a;
