@@ -12,7 +12,7 @@ int main(){
 		if(b=="关机"){
 			system("shutdown -p");
 		}else if(b=="退出"){
-			return 0;
+			cout<<"你不会点叉吗？";
 		}else if(b=="遍历"){
 			system("dir/s"); 
 		}else{
